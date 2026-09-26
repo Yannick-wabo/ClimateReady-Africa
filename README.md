@@ -2,7 +2,7 @@
 
 Version 1.0.1 — public academic demonstration, 25 September 2026.
 
-ClimateReady Africa connects a fictional or real mitigation-project profile to conditional readiness criteria, evidence notes, a transparent score, critical gaps and prioritised actions. Its outputs support preparation; they do not grant Article 6 authorisation, eligibility, registration or certification.
+ClimateReady Africa connects a fictional mitigation-project profile to conditional readiness criteria, evidence notes, a transparent score, critical gaps and prioritised actions. Its outputs support preparation; they do not grant Article 6 authorisation, eligibility, registration or certification.
 
 ## Public demonstration behaviour
 

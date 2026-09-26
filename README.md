@@ -2,11 +2,13 @@
 
 Version 1.0.1 — public academic demonstration, 25 September 2026.
 
-ClimateReady Africa connects a fictional mitigation-project profile to conditional readiness criteria, evidence notes, a transparent score, critical gaps and prioritised actions. Its outputs support preparation; they do not grant Article 6 authorisation, eligibility, registration or certification.
+ClimateReady Africa connects a fictional or real mitigation-project profile to conditional readiness criteria, evidence notes, a transparent score, critical gaps and prioritised actions. Its outputs support preparation; they do not grant Article 6 authorisation, eligibility, registration or certification.
 
 ## Public demonstration behaviour
 
 Four fictional templates are loaded from Cloudflare D1. Each visitor works on copies saved in their own browser. New projects, profile edits and assessment answers stay in that browser. Server creation and update endpoints always return HTTP 403. Reset affects only the current browser workspace. There are no application accounts or cross-device synchronisation. Clearing browser data removes local work; download text reports before resetting. Use fictional information only.
+
+You can check the public demo at: https://climateready-africa.yannick-waboa.workers.dev/
 
 ## Start locally
 

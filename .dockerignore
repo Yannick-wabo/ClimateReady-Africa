@@ -1,0 +1,11 @@
+node_modules
+.git
+.github
+.wrangler
+.next
+dist
+coverage
+*.log
+.env*
+outputs
+work

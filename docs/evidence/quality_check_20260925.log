@@ -1,0 +1,73 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> climateready-africa@1.0.1 check
+> npm run lint && npm run test && npm run typecheck && npm run build
+
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> climateready-africa@1.0.1 lint
+> eslint . --ignore-pattern dist --ignore-pattern .next
+
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> climateready-africa@1.0.1 test
+> node --experimental-strip-types --test tests/*.test.mjs
+
+✔ weights, pathway scope and reversal-risk applicability (1.081482ms)
+✔ a high score cannot override an unresolved critical criterion (0.734612ms)
+✔ assessment completeness is separate from readiness (0.322253ms)
+✔ reports identify example evidence and include follow-up actions (17.685305ms)
+✔ a valid project profile is accepted (2.874521ms)
+✔ Article 6.2 requires authorised international use (0.409695ms)
+✔ unknown countries and negative mitigation estimates are rejected (0.484416ms)
+✔ UT-08 template edits cannot mutate the shared input (4.361672ms)
+✔ UT-09 creation survives reopening and remains isolated from a second browser (4.399037ms)
+✔ UT-10 changing assessment scope clears previous answers (1.52044ms)
+✔ UT-11 stale updates preserve the newer saved value (1.945028ms)
+✔ UT-12 short documented evidence is rejected without changing saved data (0.876185ms)
+✔ UT-13 reset affects only one store and invalidates stale revisions (1.445448ms)
+✔ UT-14 a quota failure cannot report a successful save (0.769734ms)
+✔ UT-15 corrupt saved data is not silently overwritten (0.604586ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 165.072551
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> climateready-africa@1.0.1 typecheck
+> tsc --noEmit
+
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> climateready-africa@1.0.1 build
+> vinext build
+
+
+  vinext build  (Vite 8.0.13)
+
+▲ [WARNING] Proxy environment variables detected. We'll use your proxy for fetch requests.
+
+
+[1/5] analyze client references...
+
+transforming...✓ 246 modules transformed.
+rendering chunks...
+✓ built in 554ms
+[2/5] analyze server references...
+
+transforming...✓ 221 modules transformed.
+rendering chunks...
+✓ built in 358ms
+[3/5] build rsc environment...
+
+transforming...✓ 252 modules transformed.
+rendering chunks...
+computing gzip size...
+✓ built in 717ms
+[4/5] build client environment...
+
+transforming...✓ 2006 modules transformed.

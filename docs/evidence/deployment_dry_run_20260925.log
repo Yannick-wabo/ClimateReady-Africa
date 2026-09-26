@@ -1,0 +1,38 @@
+▲ [WARNING] Proxy environment variables detected. We'll use your proxy for fetch requests.
+
+
+
+ ⛅️ wrangler 4.92.0
+───────────────────
+Using redirected Wrangler configuration.
+ - Configuration being used: "dist/server/wrangler.json"
+ - Original user's configuration: "wrangler.jsonc"
+ - Deploy configuration file: ".wrangler/deploy/config.json"
+
+Cloudflare collects anonymous telemetry about your usage of Wrangler. Learn more at https://github.com/cloudflare/workers-sdk/tree/main/packages/wrangler/telemetry.md
+Attaching additional modules:
+┌───────────────────────────────────────────────┬──────┬─────────────┐
+│ Name                                          │ Type │ Size        │
+├───────────────────────────────────────────────┼──────┼─────────────┤
+│ __vite_rsc_assets_manifest.js                 │ esm  │ 1.09 KiB    │
+├───────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/__vite_rsc_assets_manifest.js             │ esm  │ 1.09 KiB    │
+├───────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/error-boundary-DEPHMDHv.js         │ esm  │ 8.22 KiB    │
+├───────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/layout-segment-context-CVUaRAbM.js │ esm  │ 1.70 KiB    │
+├───────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/page-CSBZX6oX.js                   │ esm  │ 704.87 KiB  │
+├───────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/index.js                                  │ esm  │ 570.67 KiB  │
+├───────────────────────────────────────────────┼──────┼─────────────┤
+│ Total (6 modules)                             │      │ 1287.63 KiB │
+└───────────────────────────────────────────────┴──────┴─────────────┘
+✨ Read 12 files from the assets directory ./dist/client
+Total Upload: 1931.89 KiB / gzip: 414.00 KiB
+Your Worker has access to the following bindings:
+Binding                               Resource         
+env.DB (climateready-africa)          D1 Database      
+env.ASSETS                            Assets           
+
+--dry-run: exiting now.
